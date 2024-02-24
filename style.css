@@ -89,3 +89,22 @@ footer h1 {
   margin-top: 40px;
   padding-right: 20px;
 }
+
+@media only screen and (max-width: 321px) {
+  .Row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #kwCart img {
+    width: 22px;
+  }
+  #kwCart span {
+    font-size: 7px;
+  }
+  #bookContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
